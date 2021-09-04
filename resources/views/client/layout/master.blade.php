@@ -191,8 +191,8 @@
         <!-- Header End-->
         <!-- Main آقایانu Start-->
 
-{{--    @include('client.layout.menu')--}}
-    <!-- Main آقایانu End-->
+        @include('client.layout.menu')
+        <!-- Main آقایانu End-->
     </div>
     <div id="container">
         <!-- Feature Box Start-->
