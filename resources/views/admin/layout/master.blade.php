@@ -522,7 +522,11 @@
               <i class="fa fa-angle-right pull-right"></i>
             </span>
                     </a>
-   
+                    <ul class="treeview-menu">
+                        <li><a href="{{route('categories.create')}}"><i class="mdi mdi-toggle-switch-off"></i>ایجاد دسته بندی</a></li>
+                        <li><a href="{{route('categories.index')}}"><i class="mdi mdi-toggle-switch-off"></i>لیست</a></li>
+                    </ul>
+                </li>
 
 
                 <li class="header nav-small-cap"><i class="mdi mdi-drag-horizontal mr-5"></i>UI</li>
@@ -900,8 +904,8 @@
         <!-- Main content -->
         <section class="content">
 
-        @yield('content')
-        <!-- /.row -->
+            @yield('content')
+            <!-- /.row -->
         </section>
         <!-- /.content -->
     </div>
